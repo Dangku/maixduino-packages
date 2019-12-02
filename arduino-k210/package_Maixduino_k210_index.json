@@ -2,7 +2,7 @@
     "packages": [
         {
             "name": "Maixduino", 
-            "maintainer": "Sipeed",
+            "maintainer": "Bananapi",
             "websiteURL": "https://maixduino.sipeed.com", 
             "email": "support@sipeed.com",
             "help": {
@@ -25,7 +25,7 @@
                         {"name": "Sipeed Maix Go Board"},
                         {"name": "Sipeed Maixduino Board"},
                         {"name": "LamLoei AIoT DaaN Board"},
-                        {"name": "Bananapi rbxy Board"}
+                        {"name": "Bananapi Rbxy Board"}
                     ],
                     "toolsDependencies": [
                         {
@@ -125,74 +125,18 @@
                             "size": "6580553"
                         },
                         {
+                            "url": "https://raw.githubusercontent.com/Dangku/maixduino-packages/master/arduino-k210/linux_kflash_v1.0.2.zip",
+                            "checksum": "SHA-256:179a59d7d7e0f294b2e282fe807744912ed8d55edf5f9b05743bd27c354f36c5",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "linux_kflash_v1.0.2.zip",
+                            "size": "78313"
+                        },
+                        {
                             "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.2.zip",
                             "checksum": "SHA-256:943D722F15D7E8B352EEB6F083387E0BF3CD1B5212F4B840E71E3F45FA10D10F",
-                            "host": "x86_64-linux-gnu",
-                            "archiveFileName": "linux_kflash_v1.0.1.zip",
-                            "size": "74362"
-                        },
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.2.zip",
-                            "checksum": "SHA-256:943D722F15D7E8B352EEB6F083387E0BF3CD1B5212F4B840E71E3F45FA10D10F",
                             "host": "x86_64-apple-darwin",
                             "archiveFileName": "linux_kflash_v1.0.1.zip",
                             "size": "74362"
-                        }
-                    ]
-                },
-                {
-                    "name": "kflash", 
-                    "version": "1.0.1", 
-                    "systems": 
-                    [
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/win/win_kflash_py_v1.0.1.zip",
-                            "checksum": "SHA-256:18D379B82E0BECE04BB163E9E5ED6A00925E8632DA033833FD2070104C3D5DFD",
-                            "host": "i686-mingw32",
-                            "archiveFileName": "win_kflash_py_v1.0.1.zip",
-                            "size": "6504280"
-                        },
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.1.zip",
-                            "checksum": "SHA-256:99862508BCE0EFEE0A89866A19717FBD70A1A48BFC6BF91BD00841B90749FE06",
-                            "host": "x86_64-linux-gnu",
-                            "archiveFileName": "linux_kflash_v1.0.1.zip",
-                            "size": "72213"
-                        },
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.1.zip",
-                            "checksum": "SHA-256:99862508BCE0EFEE0A89866A19717FBD70A1A48BFC6BF91BD00841B90749FE06",
-                            "host": "x86_64-apple-darwin",
-                            "archiveFileName": "linux_kflash_v1.0.1.zip",
-                            "size": "72213"
-                        }
-                    ]
-                },
-                {
-                    "name": "kflash", 
-                    "version": "1.0.0", 
-                    "systems": 
-                    [
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/win/win_kflash_py_v1.0.0.zip",
-                            "checksum": "SHA-256:e2c1f217bb62bd30fd7d5a43aa7931b1144098f6d13ff9ed2a0c428130aaeec1",
-                            "host": "i686-mingw32",
-                            "archiveFileName": "win_kflash_py_v1.0.0.zip",
-                            "size": "5900033"
-                        },
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.0.zip",
-                            "checksum": "SHA-256:d409ef1945c53b148bbf43832b25901c58dc9e1a18f431bd6992fdcc8f363630",
-                            "host": "x86_64-linux-gnu",
-                            "archiveFileName": "linux_kflash_v1.0.0.zip",
-                            "size": "63387"
-                        },
-                        {
-                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kflash_v1.0.0.zip",
-                            "checksum": "SHA-256:d409ef1945c53b148bbf43832b25901c58dc9e1a18f431bd6992fdcc8f363630",
-                            "host": "x86_64-apple-darwin",
-                            "archiveFileName": "linux_kflash_v1.0.0.zip",
-                            "size": "63387"
                         }
                     ]
                 }
