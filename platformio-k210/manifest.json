@@ -1,7 +1,7 @@
 {
   "framework-rbxyduino": [
     {
-      "sha1": "da50b735a447c895c99ee3e37c3c9a99a633a708",
+      "sha1": "e679e710a70ce9f3c9ab1581ec8af20cb314d961",
       "system": "*", 
       "url": "https://raw.githubusercontent.com/Dangku/maixduino-packages/master/platformio-k210/framework-rbxyduino-0.3.13.tar.gz",
       "version": "0.3.13"
