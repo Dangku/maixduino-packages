@@ -15,7 +15,7 @@
                     "version": "0.3.13",
                     "architecture": "k210",
                     "url": "https://raw.githubusercontent.com/Dangku/maixduino-packages/master/arduino-k210/Maixduino_core_v0.3.13.zip",
-                    "checksum": "SHA-256:4eea63b1f99ff29db2fb76abdb6715ddc5deb91507c17cc1daa60e2bbedc1519",
+                    "checksum": "SHA-256:23e58bdd2027cb4b00ae49aa76ce2fbc69e66fd1b8aff9beb2e8bf2f1ec307a9",
                     "archiveFileName": "Maixduino_core_v0.3.13.zip",
                     "size": "2238859",
                     "boards": [
