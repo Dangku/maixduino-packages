@@ -12,19 +12,20 @@
                 {
                     "category": "K210",
                     "name": "Maixduino(k210)",
-                    "version": "0.3.11",
+                    "version": "0.3.13",
                     "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.11.zip",
-                    "checksum": "SHA-256:03A7A7E245494460E581883AEB19CE01D7037E327940F5DF025971ECCA3AF235",
-                    "archiveFileName": "Maixduino_core_v0.3.11.zip",
-                    "size": "1905004",
+                    "url": "https://raw.githubusercontent.com/Dangku/maixduino-packages/master/arduino-k210/package_Maixduino_k210_index.json",
+                    "checksum": "SHA-256:70646cad9fee03927bd4eacfe2e006761c798cb7e1808e501c2f8a968e123b58",
+                    "archiveFileName": "Maixduino_core_v0.3.13.zip",
+                    "size": "2238714",
                     "boards": [
                         {"name": "Sipeed Maix One Dock Board"},
                         {"name": "Sipeed Maix Bit Board"},
                         {"name": "Sipeed Maix Bit-Mic Board"},
                         {"name": "Sipeed Maix Go Board"},
                         {"name": "Sipeed Maixduino Board"},
-                        {"name": "LamLoei AIoT DaaN Board"}
+                        {"name": "LamLoei AIoT DaaN Board"},
+                        {"name": "Bananapi rbxy Board"}
                     ],
                     "toolsDependencies": [
                         {
@@ -35,167 +36,6 @@
                         {
                             "packager": "Maixduino",
                             "version": "1.0.2",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.10",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.10.zip",
-                    "checksum": "SHA-256:F68D793AB10F81E6ADAED8D2972E1F225B2948EEDB46758C1086E5F549BF9EE4",
-                    "archiveFileName": "Maixduino_core_v0.3.10.zip",
-                    "size": "2148256",
-                    "boards": [
-                        {"name": "Sipeed Maix One Dock Board"},
-                        {"name": "Sipeed Maix Bit Board"},
-                        {"name": "Sipeed Maix Bit-Mic Board"},
-                        {"name": "Sipeed Maix Go Board"},
-                        {"name": "Sipeed Maixduino Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0_20190409",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.2",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.9",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.9.zip",
-                    "checksum": "SHA-256:8BCEA611F15595C6A9FC2AFA17FD8FFD0C6965E3B1D948BFC705D0760FC77668",
-                    "archiveFileName": "Maixduino_core_v0.3.9.zip",
-                    "size": "2148256",
-                    "boards": [
-                        {"name": "Sipeed Maix One Dock Board"},
-                        {"name": "Sipeed Maix Bit Board"},
-                        {"name": "Sipeed Maix Go Board"},
-                        {"name": "Sipeed Maixduino Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0_20190409",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.2",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.8",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.8.zip",
-                    "checksum": "SHA-256:7B7A621A28B617847482967CF51D3C968C08D5AF25B418CC052A103106AD9176",
-                    "archiveFileName": "Maixduino_core_v0.3.8.zip",
-                    "size": "2124112",
-                    "boards": [
-                        {"name": "Sipeed \"Maix One Dock\"/\"Maix Bit\" Board"},
-                        {"name": "Sipeed Maix Go Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0_20190409",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.1",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.7",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.7_2.zip",
-                    "checksum": "SHA-256:B3D6C5B0E1E6CB815D2B02AF1B912E0E355694ADE3FE8B1AB3692FA1C0B6FC69",
-                    "archiveFileName": "Maixduino_core_v0.3.7_2.zip",
-                    "size": "2140447",
-                    "boards": [
-                        {"name": "Sipeed \"Maix One Dock\"/\"Maix Bit\" Board"},
-                        {"name": "Sipeed Maix Go Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0_20190409",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.0",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.6",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.6_2.zip",
-                    "checksum": "SHA-256:111f7a76e489be11a2ed658de9d6e63a3847bc63bef67646b48df03a1550265b",
-                    "archiveFileName": "Maixduino_core_v0.3.6_2.zip",
-                    "size": "1063542",
-                    "boards": [
-                        {"name": "Sipeed \"Maix One Dock\"/\"Maix Bit\" Board"},
-                        {"name": "Sipeed Maix Go Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.0",
-                            "name": "kflash"
-                        }
-                    ]
-                },
-                {
-                    "category": "K210",
-                    "name": "Maixduino(k210)",
-                    "version": "0.3.3",
-                    "architecture": "k210",
-                    "url": "http://dl.sipeed.com/MAIX/Maixduino/core/Maixduino_core_v0.3.3.zip",
-                    "checksum": "SHA-256:a729cf65b789f30937d40f819e8908b277937658c2c2ce7e2a5602fbd3f044bc",
-                    "archiveFileName": "Maixduino_core_v0.3.3.zip",
-                    "size": "1063528",
-                    "boards": [
-                        {"name": "Sipeed \"Maix One Dock\"/\"Maix Bit\" Board"},
-                        {"name": "Sipeed Maix Go Board"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "Maixduino",
-                            "version": "8.2.0",
-                            "name": "riscv64-unknown-elf-gcc"
-                        },
-                        {
-                            "packager": "Maixduino",
-                            "version": "1.0.0",
                             "name": "kflash"
                         }
                     ]
