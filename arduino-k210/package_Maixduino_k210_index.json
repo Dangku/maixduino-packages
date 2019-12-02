@@ -15,9 +15,9 @@
                     "version": "0.3.13",
                     "architecture": "k210",
                     "url": "https://raw.githubusercontent.com/Dangku/maixduino-packages/master/arduino-k210/Maixduino_core_v0.3.13.zip",
-                    "checksum": "SHA-256:70646cad9fee03927bd4eacfe2e006761c798cb7e1808e501c2f8a968e123b58",
+                    "checksum": "SHA-256:901b21ba57e073aa9eaf7088db4aede7028c392386edc5a233827516a73858b6",
                     "archiveFileName": "Maixduino_core_v0.3.13.zip",
-                    "size": "2238714",
+                    "size": "2238856",
                     "boards": [
                         {"name": "Sipeed Maix One Dock Board"},
                         {"name": "Sipeed Maix Bit Board"},
